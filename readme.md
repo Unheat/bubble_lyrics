@@ -133,10 +133,9 @@ position_animation.setEasingCurve(QEasingCurve.InOutQuad)  # Easing curve
 
 ## Limitations
 
-- Requires Genius database availability for lyrics
+- Requires Texttyle database availability for lyrics
 - Limited to media players with API support
-- Currently supports Spotify (additional platforms planned)
-
+- Currently supports Spotify 
 ## Roadmap
 
 - [ ] Apple Music support
