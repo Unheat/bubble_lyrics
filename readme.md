@@ -38,7 +38,7 @@ pip install PyQt5 requests lyricsgenius certifi PyObjC urllib3
 
 The application requires access to:
 - Spotify API (or similar) for current song information
-- Genius API for synchronized lyrics
+- Textyle API for synchronized lyrics
 
 ## Installation
 
@@ -60,12 +60,8 @@ The application requires access to:
    pip install -r requirements.txt
    ```
 
-4. Configure your Genius API key in `fetch_song.py`:
-   ```python
-   genius = lyricsgenius.Genius("YOUR_GENIUS_API_KEY")
-   ```
 
-5. Launch the application:
+4. Launch the application:
    ```bash
    python main.py
    ```
@@ -159,4 +155,3 @@ Contributions are welcome! To contribute:
 
 ## License
 
-This project is licensed under the MIT License. See [LICENSE](LICENSE) for details.
