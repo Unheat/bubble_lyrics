@@ -1,6 +1,10 @@
-# Ignore environment files
-.env
-api.env
+# Ignore Python cache directories
+__pycache__/
+*.py[cod]
 
-# Ignore Python cache
-__pycache__
+# Ignore environment and configuration files
+*.env
+*.DS_Store
+
+# Ignore cache files
+.cache
