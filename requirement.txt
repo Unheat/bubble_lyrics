@@ -1,0 +1,6 @@
+PyQt5>=5.15.0
+requests>=2.22.0
+lyricsgenius>=3.0.1
+certifi>=2024.8.30
+PyObjC>=8.0.0; platform_system=="Darwin"
+urllib3>=1.26.0
